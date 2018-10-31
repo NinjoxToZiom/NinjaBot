@@ -16,6 +16,9 @@ client.on("message", async message => {
  if(command == 'grzybas'){
    message.channel.send('to kurwa')
  }
+ if(command=='zlewozmywarka'){
+   message.channel.send('no chyba ty')
+ }
   if(command == 'muw'){
     message.channel.send(args.join(' '))
   }
