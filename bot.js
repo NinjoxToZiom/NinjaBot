@@ -19,6 +19,9 @@ client.on("message", async message => {
  if(command=='zlewozmywarka'){
    message.channel.send('no chyba ty')
  }
+ if(command == 'Franek'){
+   message.channel.send('0iq player')
+ }
  if(command == "stary skilluje")
  message.channel.send('skilluje pizda i jego stary tez')
  if(command == 'skilluje'){
