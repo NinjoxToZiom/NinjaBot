@@ -35,7 +35,7 @@ client.on("message", async message => {
     message.channel.send(`usunolem ${args[0]} wiadomosci`)
   }
   if(command == 'hesia')  {
-    message.channel.send(Puszczalska Szmula)
+    message.channel.send('Puszczalska Szmula')
   }
 })
 
