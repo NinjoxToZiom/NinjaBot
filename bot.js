@@ -29,12 +29,13 @@ client.on("message", async message => {
     message.channel.send(args.join(' '))
   }
  if(command == 'anime'){
-   message.channel.send('Fajna Rzecz')
+   message.channel.send('gowno zjebane')
  }
   if(command == 'multi'){
      message.channel.send('to pies')
   }
   if(command == 'klir'){
+  if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.send("aa kura ne dla psa");
     message.channel.bulkDelete(args[0])
     message.channel.send(`usunolem ${args[0]} wiadomosci`)
   }
