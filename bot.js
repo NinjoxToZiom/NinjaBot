@@ -35,8 +35,8 @@ client.on("message", async message => {
   if(command == 'hesia')  {
     message.channel.send('Puszczalska Szmula')
   }
-  if(command == 'hajsia sie pruje'){
-    message.channel.send('zajeb jej w ryj')
+  if(command == 'hajsie'){
+    message.channel.send('jesli sie pruje to zajeb jej w ryj')
   }
 })
 
