@@ -34,6 +34,9 @@ client.on("message", async message => {
     message.channel.bulkDelete(args[0])
     message.channel.send(`usunolem ${args[0]} wiadomosci`)
   }
+  if(command == 'Hesia')  {
+    message.channel.send(Puszczalska Szmula)
+  }
 })
 
 
