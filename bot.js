@@ -45,6 +45,4 @@ client.on("message", async message => {
     message.channel.send('jesli sie pruje to zajeb jej w ryj')
   }
 })
-
-
-client.login(process.env.TOKEN);
+client.login(process.env.TOKEN)
