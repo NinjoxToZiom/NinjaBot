@@ -28,6 +28,9 @@ client.on("message", async message => {
   if(command == 'muw'){
     message.channel.send(args.join(' '))
   }
+ if(command == 'anime'){
+   message.channel.send('Fajna Rzecz')
+ }
   if(command == 'klir'){
     message.channel.bulkDelete(args[0])
     message.channel.send(`usunolem ${args[0]} wiadomosci`)
